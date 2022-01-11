@@ -1,0 +1,30 @@
+{
+  "name": "vuepressBlog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "vue"
+  ],
+  "scripts": {
+    "start": "vuepress dev docs",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vuepress": "^1.4.0",
+    "ant-design-vue": "^1.6.5"
+  },
+  "devDependencies": {
+    "highlight.js": "^9.18.1",
+    "v-viewer": "^1.5.1",
+    "core-js": "^2.6.11",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2"
+  }
+}
